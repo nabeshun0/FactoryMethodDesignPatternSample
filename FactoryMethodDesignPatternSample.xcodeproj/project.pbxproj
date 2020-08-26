@@ -13,10 +13,11 @@
 		5EC4ADC424F55B18008D8D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4ADC224F55B18008D8D41 /* Main.storyboard */; };
 		5EC4ADC624F55B1A008D8D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4ADC524F55B1A008D8D41 /* Assets.xcassets */; };
 		5EC4ADC924F55B1A008D8D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC4ADC724F55B1A008D8D41 /* LaunchScreen.storyboard */; };
+		5EC4ADD124F55BBA008D8D41 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4ADD024F55BBA008D8D41 /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5EC4ADB924F55B18008D8D41 /* FactoryMethodSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethodSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC4ADB924F55B18008D8D41 /* FactoryMethodDesignPatternSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethodDesignPatternSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC4ADBC24F55B18008D8D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EC4ADBE24F55B18008D8D41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5EC4ADC024F55B18008D8D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		5EC4ADC524F55B1A008D8D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EC4ADC824F55B1A008D8D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EC4ADCA24F55B1A008D8D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC4ADD024F55BBA008D8D41 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		5EC4ADBA24F55B18008D8D41 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EC4ADB924F55B18008D8D41 /* FactoryMethodSample.app */,
+				5EC4ADB924F55B18008D8D41 /* FactoryMethodDesignPatternSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,6 +61,7 @@
 				5EC4ADBC24F55B18008D8D41 /* AppDelegate.swift */,
 				5EC4ADBE24F55B18008D8D41 /* SceneDelegate.swift */,
 				5EC4ADC024F55B18008D8D41 /* ViewController.swift */,
+				5EC4ADD024F55BBA008D8D41 /* Currency.swift */,
 				5EC4ADC224F55B18008D8D41 /* Main.storyboard */,
 				5EC4ADC524F55B1A008D8D41 /* Assets.xcassets */,
 				5EC4ADC724F55B1A008D8D41 /* LaunchScreen.storyboard */,
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EC4ADB824F55B18008D8D41 /* FactoryMethodSample */ = {
+		5EC4ADB824F55B18008D8D41 /* FactoryMethodDesignPatternSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EC4ADCD24F55B1A008D8D41 /* Build configuration list for PBXNativeTarget "FactoryMethodSample" */;
+			buildConfigurationList = 5EC4ADCD24F55B1A008D8D41 /* Build configuration list for PBXNativeTarget "FactoryMethodDesignPatternSample" */;
 			buildPhases = (
 				5EC4ADB524F55B18008D8D41 /* Sources */,
 				5EC4ADB624F55B18008D8D41 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = FactoryMethodSample;
+			name = FactoryMethodDesignPatternSample;
 			productName = FactoryMethodSample;
-			productReference = 5EC4ADB924F55B18008D8D41 /* FactoryMethodSample.app */;
+			productReference = 5EC4ADB924F55B18008D8D41 /* FactoryMethodDesignPatternSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EC4ADB424F55B18008D8D41 /* Build configuration list for PBXProject "FactoryMethodSample" */;
+			buildConfigurationList = 5EC4ADB424F55B18008D8D41 /* Build configuration list for PBXProject "FactoryMethodDesignPatternSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EC4ADB824F55B18008D8D41 /* FactoryMethodSample */,
+				5EC4ADB824F55B18008D8D41 /* FactoryMethodDesignPatternSample */,
 			);
 		};
 /* End PBXProject section */
@@ -141,6 +144,7 @@
 				5EC4ADC124F55B18008D8D41 /* ViewController.swift in Sources */,
 				5EC4ADBD24F55B18008D8D41 /* AppDelegate.swift in Sources */,
 				5EC4ADBF24F55B18008D8D41 /* SceneDelegate.swift in Sources */,
+				5EC4ADD124F55BBA008D8D41 /* Currency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nabeshun.FactoryMethodSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FactoryMethodDesignPatternSample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nabeshun.FactoryMethodSample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FactoryMethodDesignPatternSample;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EC4ADB424F55B18008D8D41 /* Build configuration list for PBXProject "FactoryMethodSample" */ = {
+		5EC4ADB424F55B18008D8D41 /* Build configuration list for PBXProject "FactoryMethodDesignPatternSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC4ADCB24F55B1A008D8D41 /* Debug */,
@@ -326,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EC4ADCD24F55B1A008D8D41 /* Build configuration list for PBXNativeTarget "FactoryMethodSample" */ = {
+		5EC4ADCD24F55B1A008D8D41 /* Build configuration list for PBXNativeTarget "FactoryMethodDesignPatternSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EC4ADCE24F55B1A008D8D41 /* Debug */,

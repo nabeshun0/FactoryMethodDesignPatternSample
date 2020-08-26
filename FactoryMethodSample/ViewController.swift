@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let noCurrencyCode = "No Currency Code Available"
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let greece = CurrencyFactory.currency(for: .greece)?.code ?? noCurrencyCode
+        let spain = CurrencyFactory.currency(for: .spain)?.code ?? noCurrencyCode
+        let unitedStates = CurrencyFactory.currency(for: .unitedStates)?.code ?? noCurrencyCode
+        let uk = CurrencyFactory.currency(for: .uk)?.code ?? noCurrencyCode
+
+
+        print("greece:", greece)
+        print("spain:", spain)
+        print("unitedStates:", unitedStates)
+        print("uk:", uk)
     }
-
-
 }
 
